@@ -58,9 +58,8 @@ def get_stops(locations):
     ).json()
 
     round_trip_time = resp["route"]["formattedTime"]
-    seq = [int(j - 1) for j in resp["route"]["locationSequence"]][1:-1]
 
-    stops = [locations[i] for i in seq]
+    stops = [locations[i] for i in resp["route"]["locationSequence"][1:]]
 
     return stops, round_trip_time
 
