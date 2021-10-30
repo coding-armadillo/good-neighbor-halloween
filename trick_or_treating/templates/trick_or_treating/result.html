@@ -1,0 +1,32 @@
+{% extends "trick_or_treating/base.html" %}
+
+<!-- block content -->
+{% block content %}
+<!-- map -->
+{{ map | safe }}
+
+<div class="flex items-center">
+  <div class="container mx-auto">
+    <div class="max-w-3xl mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
+      <div class="text-center">
+        <h1 class="my-3 text-3xl font-semibold text-gray-700">
+          Here are stops for your!
+        </h1>
+        <h2>It probably takes more than {{ round_trip_time }} hour.</h2>
+      </div>
+      <div class="m-7">
+        <form>
+          {% for stop in stops %}
+          <div class="mb-6">
+            <label class="block mb-2 text-sm text-gray-600">
+              <input type="checkbox" /> {{ stop }}
+            </label>
+          </div>
+          {% endfor %}
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- endblock -->
+{% endblock %}

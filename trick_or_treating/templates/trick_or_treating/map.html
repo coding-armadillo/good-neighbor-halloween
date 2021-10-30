@@ -4,5 +4,53 @@
 {% block content %}
 <!-- map -->
 {{ map | safe }}
+
+<div class="flex items-center">
+  <div class="container mx-auto">
+    <div class="max-w-lg mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
+      <div class="text-center">
+        <h1 class="my-3 text-3xl font-semibold text-gray-700">
+          Show me the route
+        </h1>
+        <p class="text-gray-400">Fill up the form below to play.</p>
+      </div>
+      <div class="m-7">
+        <form method="POST">
+          {% csrf_token %}
+          <div class="mb-6">
+            <label for="address" class="block mb-2 text-sm text-gray-600">
+              Address
+              <!-- address -->
+              {{ form.address }}
+            </label>
+          </div>
+          <div class="mb-6">
+            <label for="phone" class="block mb-2 text-sm text-gray-600">
+              Phone number (optional)
+              <!-- address -->
+              {{ form.phone }}
+            </label>
+          </div>
+          <div class="mb-6">
+            <button
+              type="submit"
+              class="
+                w-full
+                px-3
+                py-4
+                text-white
+                bg-indigo-500
+                rounded-md
+                focus:bg-indigo-600 focus:outline-none
+              "
+            >
+              Play
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- endblock -->
 {% endblock %}
