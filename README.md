@@ -8,6 +8,8 @@ A Django app to help planning the Halloween route
 
 ## Demo
 
+> The demo app is turned off now. Check again next year. 😃
+
 - It asks for your address to play.
 
   ![](demo/demo1.png)
