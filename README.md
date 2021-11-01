@@ -4,6 +4,22 @@
 
 # good-neighbor-halloween
 
+A Django app to help planning the Halloween route
+
+## Demo
+
+- It asks for your address to play.
+
+  ![](demo/demo1.png)
+
+- It generates an optimized route based on the given address.
+
+  ![](demo/demo2.png)
+
+- It sends a text notification if a phone number is provided.
+
+  ![](demo/demo3.png)
+
 ## Getting Started
 
 ### Install
