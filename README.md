@@ -4,7 +4,7 @@
 
 # good-neighbor-halloween
 
-A Django app to help planning the Halloween route
+A Django app for Halloween route
 
 ## Demo
 
