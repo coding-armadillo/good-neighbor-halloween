@@ -19,7 +19,7 @@ jobs:
         with:
           commit-message: refresh deps
           committer: GitHub <noreply@github.com>
-          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          author: pcu-bot <pcu-bot@users.noreply.github.com>
           signoff: false
           branch: pcu-pr
           delete-branch: true
