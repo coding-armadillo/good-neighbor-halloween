@@ -1,8 +1,8 @@
-boto3==1.26.27
-dj-database-url==1.1.0
+boto3==1.26.32
+dj-database-url==1.2.0
 django-environ==0.9.0
 Django==4.1.4
-folium==0.13.0
+folium==0.14.0
 gunicorn==20.1.0
 psycopg2==2.9.5
 requests==2.28.1
