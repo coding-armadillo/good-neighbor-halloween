@@ -1,5 +1,5 @@
-boto3==1.28.25
-dj-database-url==2.0.0
+boto3==1.28.30
+dj-database-url==2.1.0
 django-environ==0.10.0
 Django==4.2.4
 folium==0.14.0
