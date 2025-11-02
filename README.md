@@ -1,7 +1,3 @@
-<div align="center">
-    <img src="https://cdn2.iconfinder.com/data/icons/free-color-halloween-icons/24/Pumpkin-Lamp_01-512.png" alt="logo" height="128">
-</div>
-
 # good-neighbor-halloween
 
 ![coding_style](https://img.shields.io/badge/code%20style-black-000000.svg)
@@ -67,13 +63,3 @@ heroku config:set AWS_ACCESS_KEY_ID=...
 heroku config:set AWS_SECRET_ACCESS_KEY=...
 heroku config:set AWS_REGION_NAME=...
 ```
-
-## Credits
-
-- [Logo][1] by [Alpár-Etele Méder][2]
-- [Halloween Freebie icon set][3] by [roundicons.com][4]
-
-[1]: https://www.iconfinder.com/icons/1531889/halloween_lamp_pumpkin_icon
-[2]: https://www.iconfinder.com/pocike
-[3]: https://www.iconfinder.com/iconsets/halloween-freebie
-[4]: https://www.iconfinder.com/roundicons
